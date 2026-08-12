@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shivraj Furniture and Mobile Shop - Premium furniture and latest smartphones in Lucknow since 1993. Quality you can trust.">
+    <title>Shivraj Furniture &amp; Mobile Shop | Lucknow</title>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER / NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- Logo -->
+                <div class="logo">
+                    <i class="fas fa-couch"></i>
+                    <span>Shivraj</span>
+                    <span class="logo-tag">Furniture &amp; Mobile</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#furniture" class="nav-link">Furniture</a></li>
+                    <li><a href="#mobiles" class="nav-link">Mobiles</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <!-- Cart &amp; Hamburger -->
+                <div class="nav-actions">
+                    <button class="cart-btn" id="cart-btn" aria-label="Cart">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count" id="cart-count">0</span>
+                    </button>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Shivraj Furniture &amp; Mobile Shop</h1>
+            <p class="hero-tagline">Quality Furniture &amp; Latest Mobiles at the Best Price</p>
+
+            <div class="hero-buttons">
+                <a href="#furniture-section" class="btn btn-primary">View Furniture</a>
+                <a href="#mobiles-section" class="btn btn-secondary">View Mobiles</a>
+            </div>
+
+            <div class="hero-scroll">
+                <span>Scroll to explore</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="products-section">
+        <div class="section-header">
+            <h2>Our Premium Collection</h2>
+            <p>Handpicked furniture &amp; latest smartphones with 30+ years of trust</p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="furniture">Furniture</button>
+            <button class="tab-btn" data-tab="mobiles">Mobiles &amp; Accessories</button>
+        </div>
+
+        <!-- Furniture Tab Content -->
+        <div id="furniture-tab" class="tab-content active">
+            <div class="products-grid" id="furniture-grid">
+                <!-- Populated by JS or static cards -->
+            </div>
+        </div>
+
+        <!-- Mobiles Tab Content -->
+        <div id="mobiles-tab" class="tab-content">
+            <div class="products-grid" id="mobiles-grid">
+                <!-- Populated by JS or static cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="why-choose">
+        <div class="section-header">
+            <h2>Why Choose Shivraj?</h2>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-award"></i>
+                <h3>30+ Years Experience</h3>
+                <p>Since 1993, serving Lucknow with unmatched expertise.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Best Quality Products</h3>
+                <p>Only genuine brands &amp; premium materials.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Affordable Prices</h3>
+                <p>Factory-direct pricing with zero compromise on quality.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-users"></i>
+                <h3>10,000+ Happy Customers</h3>
+                <p>Trusted by families across Uttar Pradesh.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://picsum.photos/id/1015/800/600" alt="Shivraj Shop Interior" loading="lazy">
+            </div>
+            <div class="about-text">
+                <h2>About Shivraj Furniture &amp; Mobile Shop</h2>
+                <p>Established in 1993 in the heart of Lucknow, Shivraj has grown from a small family business into a
+                    landmark destination for premium furniture and cutting-edge mobile technology.</p>
+                <p>With over three decades of experience, we combine traditional craftsmanship with modern innovation.
+                    Every piece of furniture is carefully selected for durability and elegance. Every smartphone and
+                    accessory is 100% authentic and comes with full manufacturer warranty.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Years of Excellence</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15k+</span>
+                        <span class="stat-label">Products Sold</span>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-primary">Visit Our Store Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <!-- Left Column - Info -->
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Address</strong><br>
+                        Near Punjab Bank<br>
+                        Nawabganj Unnao 209859
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Phone</strong><br>
+                        +91 98765 43210<br>
+                        +91 522 400 1234
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong><br>
+                        info@shivrajshop.com
+                    </div>
+                </div>
+
+                <!-- Google Map Embed -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3566.8702508154747!2d80.66955081090961!3d26.620605376725795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c0e574f129d87%3A0x1f60162d2f0a8dd2!2z4KS24KS_4KS14KSw4KS-4KScIOCkq-CksOCljeCkqOClgOCkmuCksCDgpI_gpKPgpY3gpKEg4KSH4KSy4KWH4KSV4KWN4KSf4KWN4KSw4KS-4KSo4KS_4KSV4KWN4KS4!5e0!3m2!1sen!2sin!4v1786540719583!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+
+            <!-- Right Column - Form -->
+            <div class="contact-form">
+                <h2>Send us a message</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                </form>
+                <div id="form-success" class="success-message">
+                    Thank you! We'll get back to you within 2 hours.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <i class="fas fa-couch"></i>
+                    <span>Shivraj</span>
+                </div>
+                <p>Premium Furniture &amp; Latest Mobiles<br>Since 1993 • Lucknow</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#products">Furniture</a></li>
+                    <li><a href="#products">Mobiles</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Visit Us</h4>
+                <p>Near Punjab Bank<br>Nawabganj Unnao<br>Uttar Pradesh 209859</p>
+                <p>Open 10:00 AM – 9:00 PM<br>(All Days)</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 1993–2026 Shivraj Furniture &amp; Mobile Shop. All rights reserved.</p>
+            <p>Made with <i class="fas fa-heart"></i> in Lucknow</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
